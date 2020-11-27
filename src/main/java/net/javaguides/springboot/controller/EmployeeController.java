@@ -17,7 +17,7 @@ import net.bytebuddy.asm.Advice.Return;
 import net.javaguides.springboot.model.Employee;
 import net.javaguides.springboot.service.EmployeeService;
 
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/v1")
 public class EmployeeController {
